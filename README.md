@@ -12,6 +12,7 @@
 ## 🚀 Tecnologias
 
 - [GitHub](https://docs.github.com/pt/rest/users) API GitHub Users.
+- [CSS](https://developer.mozilla.org/pt-BR/docs/Web/CSS) Estilização do componentes.
 - [ReactJS](https://pt-br.reactjs.org/)
 - [React Icons](https://react-icons.github.io/react-icons/) Utilizada para os ícones do projeto.
 - [React Toastify](https://fkhadra.github.io/react-toastify/introduction) Utilizada para os noticações do projeto.

@@ -1,0 +1,913 @@
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background: #141C2F;
+}
+
+.squad {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: fixed;
+    margin: auto 20px;
+    width: 620px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1F2A48;
+    border-radius: 12px;
+    padding: 10px;
+    margin-top: 20px;
+    width: 100%;
+}
+
+.form_input {
+    display: flex;
+}
+
+
+.form_input svg {
+    color: #265797;
+    font-size: 24px;
+    margin-right: 5px;
+    margin-top: 4px;
+}
+
+.form_input input {
+    display: flex;
+    border: 0;
+    background: 0;
+    font-size: 18px;
+    padding: 5px;
+    outline: none;
+    width: 300px;
+    color: #B3BACD;
+}
+
+.btn button {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #0477FF;
+    border: 0;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    padding: 12px 20px;
+    transition: all 0.3s;
+}
+
+.btn button:hover {
+    background-color: #0764d6;
+    border-radius: 8px;
+}
+
+.box {
+    display: flex;
+    background: #1F2A48;
+    border-radius: 12px;
+    margin-top: 20px;
+    padding: 40px;
+    width: 620px;
+    max-width: 620px;
+}
+
+.img_profile {
+    margin-left: -10px;
+    height: 100px;
+}
+
+.img_profile img{
+    width: 100px;
+    height: 100px;
+    background: white;
+    border-radius: 50%;
+}
+
+.box_texts {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 30px;
+    width: 100%;
+}
+
+.squad_texts {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text_date p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #B3BACD;
+    font-size: 14px;
+    width: 180px;
+}
+
+.texts {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+    color: white;
+    width: 100%;
+}
+
+.texts h2, p {
+    display: flex;
+    font-size: 18px;
+}
+
+.texts p {
+    color: #B3BACD;
+    font-size: 14px;
+}
+
+.username, span {
+    color: #0477FF;
+    margin-top: 6px;
+}
+
+.text_bio {
+    color:rgb(138, 138, 138);
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+
+.infos_repos {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #141C2F;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 8px;
+    width: 100%;
+}
+
+.infos_text {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 5px;
+    width: 100%;
+    margin-left: 20px;
+}
+
+.infos_text a {
+    color: rgb(138, 138, 138);
+    cursor: pointer;
+    text-decoration: none;
+
+}
+
+.infos_text p {
+    color: rgb(138, 138, 138);
+    font-size: 14px;
+}
+
+.infos_text .repos  {
+    margin-top: -5px;
+}
+
+.infos_text strong {
+    color: white;
+    font-size: 14px;
+    margin-left: 20px;
+}
+
+.box_user {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.infos_user {
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    gap: 0px 0px; 
+    grid-template-areas: 
+      ". ."
+      ". ."; 
+}
+
+.infos_user svg {
+    color: white;
+    margin-right: 5px;
+}
+
+.box_texts .infos_user  a {
+    width: 100%;
+}
+
+
+.box_texts .infos_user p, a {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: rgb(138, 138, 138);
+    font-size: 13px;
+    padding: 5px;
+    padding-right: 40px;
+    width: 100%;
+}
+
+
+
+@media screen and (max-width: 432px) {
+
+    .squad {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 416px;
+        position: fixed;
+        margin: auto 20px;
+    }
+
+    form {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #1F2A48;
+        border-radius: 12px;
+        padding: 5px;
+        margin-top: 20px;
+
+        width: 100%;
+    }
+    
+    .form_input {
+        display: flex;
+        margin-left: 10px;
+    }
+    
+    
+    .form_input svg {
+        color: #265797;
+        font-size: 18px;
+        margin-right: 5px;
+        margin-top: 5px;
+    }
+    
+    .form_input input {
+        display: flex;
+        border: 0;
+        background: 0;
+        font-size: 14px;
+        padding: 5px;
+        outline: none;
+        width: 240px;
+    }
+    
+    .btn button {
+        display: flex;
+        justify-content: flex-end;
+        background-color: #0477FF;
+        border: 0;
+        border-radius: 8px;
+        color: white;
+        cursor: pointer;
+        font-size: 12px;
+        padding: 8px 16px;
+    }
+
+    .box {
+        display: flex;
+        flex-direction: column;
+        background: #1F2A48;
+        border-radius: 12px;
+        margin-top: 20px;
+        padding: 20px;
+        width: 100%;
+    }
+
+
+    .img_profile {
+        margin-left: 30px;
+        height: 80px;
+    }
+
+    .img_profile img{
+        width: 80px;
+        height: 80px;
+        background: white;
+        border-radius: 50%;
+    }
+
+    .texts h2 {
+        font-size: 14px;
+    }
+    
+    .squad_texts {
+        display: flex;
+        flex-direction: column;
+        font-size: 14px;
+        margin-top: -80px;
+        margin-left: 120px;
+    }
+
+    .text_date p {
+        display: flex;
+        justify-content: flex-start;
+        color: #B3BACD;
+        font-size: 12px;
+        width: 180px;
+        padding-top: 5px;
+    }
+
+   
+
+    .box_texts {
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .box_user {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+        border-radius: 10px;
+    }
+
+    .infos_user {
+        display: grid; 
+        grid-template-columns: 1fr 1fr; 
+        gap: 0px 0px; 
+        grid-template-areas: 
+        ". ."
+        ". ."; 
+    }
+
+    .infos_user svg {
+        color: white;
+        margin-right: 5px;
+    }
+    
+    .box_texts .infos_user  a {
+        width: 100%;
+    }
+    
+    
+    .box_texts .infos_user p, a {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        color: rgb(138, 138, 138);
+        font-size: 10px;
+        padding: 5px;
+        padding-right: 40px;
+        width: 100%;
+        white-space: nowrap;
+    }
+
+    .text_bio {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .infos_repos {
+        padding: 4px;
+        width: 100%;
+    }
+
+    .infos_text a {
+        font-size: 10px;
+    }
+
+    .infos_text p {
+        font-size: 10px;
+    }
+   
+}
+
+@media screen and (max-width: 540px){
+    .squad {
+        width: 530px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .squad {
+        width: 410px;
+    } 
+
+    .img_profile {
+        margin-left: 10px;
+        height: 80px;
+    }
+    
+    .img_profile img{
+        width: 80px;
+        height: 80px;
+        background: white;
+        border-radius: 50%;
+    }
+    
+    .squad_texts {
+        display: flex;
+        flex-direction: column;
+        margin-top: -75px;
+        margin-left: 100px;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .squad {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 405px;
+        position: fixed;
+        margin: auto 20px;
+    }
+
+    
+
+    .img_profile {
+        margin-left: 10px;
+        height: 80px;
+    }
+    
+    .img_profile img{
+        width: 80px;
+        height: 80px;
+        background: white;
+        border-radius: 50%;
+    }
+    
+    .squad_texts {
+        display: flex;
+        flex-direction: column;
+        margin-top: -75px;
+        margin-left: 100px;
+    }
+}
+
+@media screen and (max-width: 393px) {
+    .squad {
+        width: 380px;
+        position: fixed;
+        margin: auto 20px;
+    }
+
+    
+    .img_profile {
+        margin-left: 10px;
+        height: 70px;
+    }
+    
+    .img_profile img{
+        width: 70px;
+        height: 70px;
+        background: white;
+        border-radius: 50%;
+    }
+    
+    .squad_texts {
+        margin-top: -70px;
+        margin-left: 100px;
+    }
+
+   
+    .texts h2 {
+        font-size: 14px;
+    }
+
+    .text_date p {
+        padding-top: 5px;
+    }
+
+    .box_texts {
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .box_user {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+        border-radius: 10px;
+    }
+
+    .infos_user {
+        display: grid; 
+        grid-template-columns: 1fr 1fr; 
+        gap: 0px 0px; 
+        grid-template-areas: 
+        ". ."
+        ". ."; 
+    }
+
+    .infos_user svg {
+        color: white;
+        margin-right: 5px;
+    }
+    
+    .box_texts .infos_user  a {
+        width: 100%;
+    }
+    
+    
+    .box_texts .infos_user p, a {
+        font-size: 9px;
+        padding: 5px;
+        padding-right: 30px;
+        width: 100%;
+        white-space: nowrap;
+    }
+
+    .text_bio {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .infos_repos {
+        padding: 4px;
+        width: 100%;
+    }
+
+    .infos_text a {
+        font-size: 10px;
+    }
+
+    .infos_text p {
+        font-size: 10px;
+    }
+
+}
+
+@media screen and (max-width: 375px) {
+    .img_profile {
+        margin-left: 10px;
+        height: 70px;
+    }
+    
+    .img_profile img{
+        width: 70px;
+        height: 70px;
+        background: white;
+        border-radius: 50%;
+    }
+    
+    .squad_texts {
+        margin-top: -70px;
+        margin-left: 100px;
+    }
+
+    .squad {
+        width: 360px;
+        position: fixed;
+        margin: auto 20px;
+    }
+
+    .texts h2 {
+        font-size: 14px;
+    }
+
+    .text_date p {
+        padding-top: 5px;
+    }
+
+    .box_texts {
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .box_user {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+        border-radius: 10px;
+    }
+
+    .infos_user {
+        display: grid; 
+        grid-template-columns: 1fr 1fr; 
+        gap: 0px 0px; 
+        grid-template-areas: 
+        ". ."
+        ". ."; 
+    }
+
+    .infos_user svg {
+        color: white;
+        margin-right: 5px;
+    }
+    
+    .box_texts .infos_user  a {
+        width: 100%;
+    }
+    
+    
+    .box_texts .infos_user p, a {
+        font-size: 9px;
+        padding: 5px;
+        padding-right: 30px;
+        width: 100%;
+        white-space: nowrap;
+    }
+
+    .text_bio {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .infos_repos {
+        padding: 4px;
+        width: 100%;
+    }
+
+    .infos_text a {
+        font-size: 10px;
+    }
+
+    .infos_text p {
+        font-size: 10px;
+    }
+
+}
+
+@media screen and (max-width: 360px) {
+
+    form {
+        border-radius: 12px;
+        padding: 5px;
+        margin-top: 20px;
+        width: 100%;
+    }
+    
+    .form_input {
+        display: flex;
+        margin-left: 10px;
+    }
+    
+    
+    .form_input svg {
+        color: #265797;
+        font-size: 18px;
+        margin-right: 5px;
+        margin-top: 3px;
+    }
+    
+    .form_input input {
+        font-size: 12px;
+        padding: 5px;
+        outline: none;
+        width: 180px;
+    }
+    
+    .btn button {
+        font-size: 12px;
+        padding: 6px 12px;
+    }
+
+    
+    .img_profile {
+        margin-left: 10px;
+        height: 70px;
+    }
+    
+    .img_profile img{
+        width: 70px;
+        height: 70px;
+        background: white;
+        border-radius: 50%;
+    }
+    
+    .squad_texts {
+        margin-top: -70px;
+        margin-left: 100px;
+    }
+
+    .squad {
+        width: 350px;
+        position: fixed;
+        margin: auto 20px;
+    }
+
+    .texts h2 {
+        font-size: 14px;
+    }
+
+    .text_date p {
+        padding-top: 5px;
+    }
+
+    .box_texts {
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .box_user {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+        border-radius: 10px;
+    }
+
+    .infos_user {
+        display: grid; 
+        grid-template-columns: 1fr 1fr; 
+        gap: 0px 0px; 
+        grid-template-areas: 
+        ". ."
+        ". ."; 
+    }
+
+    .infos_user svg {
+        color: white;
+        margin-right: 5px;
+    }
+    
+    .box_texts .infos_user  a {
+        width: 100%;
+    }
+    
+    
+    .box_texts .infos_user p, a {
+        font-size: 9px;
+        padding: 5px;
+        padding-right: 30px;
+        width: 100%;
+        white-space: nowrap;
+    }
+
+    .text_bio {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .infos_repos {
+        padding: 4px;
+        width: 100%;
+    }
+
+    .infos_text a {
+        font-size: 10px;
+    }
+
+    .infos_text p {
+        font-size: 10px;
+    }
+
+}
+
+@media screen and (max-width: 320px) {
+
+    form {
+        border-radius: 12px;
+        padding: 5px;
+        margin-top: 20px;
+        width: 100%;
+    }
+    
+    .form_input {
+        display: flex;
+        margin-left: 10px;
+    }
+    
+    
+    .form_input svg {
+        color: #265797;
+        font-size: 18px;
+        margin-right: 5px;
+        margin-top: 3px;
+    }
+    
+    .form_input input {
+        font-size: 11px;
+        padding: 5px;
+        outline: none;
+        width: 180px;
+    }
+    
+    .btn button {
+        font-size: 10px;
+        padding: 6px 12px;
+    }
+
+    .img_profile {
+        margin-left: 10px;
+        height: 70px;
+    }
+    
+    .img_profile img{
+        width: 70px;
+        height: 70px;
+        background: white;
+        border-radius: 50%;
+    }
+    
+    .squad_texts {
+        margin-top: -70px;
+        margin-left: 100px;
+    }
+
+    .squad {
+        width: 310px;
+        position: fixed;
+        margin: auto 20px;
+    }
+
+    .texts h2 {
+        font-size: 12px;
+    }
+
+    .text_date p {
+        font-size: 10px;
+        padding-top: 5px;
+    }
+
+    .text_bio p {
+        font-size: 10px;
+    }
+
+    .box_texts {
+        margin-left: 0px;
+        width: 100%;
+    }
+
+    .box_user {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 30px;
+        border-radius: 10px;
+    }
+
+    .infos_user {
+        display: grid; 
+        grid-template-columns: 1fr 1fr; 
+        gap: 0px 0px; 
+        grid-template-areas: 
+        ". ."
+        ". ."; 
+    }
+
+    .infos_user svg {
+        color: white;
+        margin-right: 5px;
+    }
+    
+    .box_texts .infos_user  a {
+        width: 100%;
+    }
+    
+    
+    .box_texts .infos_user p, a {
+        font-size: 8px;
+        padding: 5px;
+        padding-right: 20px;
+        width: 100%;
+    }
+
+    .text_bio {
+        width: 100%;
+        font-size: 12px;
+    }
+
+    .infos_repos {
+        padding: 4px;
+        width: 100%;
+    }
+
+    .infos_text {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        padding: 5px;
+        width: 100%;
+        margin-left: 10px;
+    }
+
+    .infos_text strong {
+        color: white;
+        font-size: 10px;
+        margin-left: 10px;
+    }
+
+    .infos_text a {
+        font-size: 10px;
+    }
+
+    .infos_text p {
+        font-size: 10px;
+    }
+
+}
